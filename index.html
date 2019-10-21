@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Current Show</title>
+        <link rel="icon" href="https://static1.squarespace.com/static/5a822acff09ca44ad247aaea/t/5a92bb4fe4966bf0584027ba/favicon.ico">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slim-select/1.18.10/slimselect.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+        <script type="text/javascript">
+          window.onbeforeunload = function() {
+              return "Did you save your stuff?"
+          }
+        </script>
+    </head>
+
+    <body>
+      <header id="header">
+        <a href="https://www.wvum.org/" target="blank"><img id="logo" src="images/logo.png"></a>
+        <p id="playing">who's playing?</p>
+      </header>
+
+      <div id="topContainer">
+        <div id="border">
+          <h1 id="label" class="top">current show:</h1> 
+          <p id="currentDJ" class="top">loading...</p>
+        
+  
+          <div id="menu">
+            <select id="single">
+              <option data-placeholder="true"></option>
+              <option value="Rotation">Rotation</option>
+              <option value="Aichmos">Aichmos</option>
+              <option value="Ale">Ale</option>
+              <option value="Avery">Avery</option>
+              <option value="Casey Chu">Casey Chu</option>
+              <option value="Castle">Castle</option>
+              <option value="CEGWayz">CEGWayz</option>
+              <option value="Citizen Chao">Citizen Chao</option>
+              <option value="Crescent City Connection">CCC - Crescent City Connection</option>
+              <option value="D-$hmoney">D-$hmoney</option>
+              <option value="DJ Cedvicious">DJ Cedvicious</option>
+              <option value="DJ Nate">DJ Nate</option>
+              <option value="DJ T.Ricky">DJ T.Ricky</option>
+              <option value="DJ Vissolela">DJ Vissolela</option>
+              <option value="Electric Kingdom Live">EKL - Electric Kingdom Live</option>
+              <option value="Emily">Emily</option>
+              <option value="Goon Green">Goon Green</option>
+              <option value="Haley">Haley</option>
+              <option value="Hurricane Warning">Hurricane Warning</option>
+              <option value="Isabella">Isabella</option>
+              <option value="Metal Revolution">Metal Revolution</option>
+              <option value="One Nation Under Groove">One Nation Under Groove</option>
+              <option value="Poptropolis">Poptropolis</option>
+              <option value="Rabbit Hole">Rabbit Hole</option>
+              <option value="Secret Sauce">Secret Sauce</option>
+              <option value="Sarah">Sarah</option>
+              <option value="Steph">Steph</option>
+              <option value="The Juice">The Juice</option>
+              <option value="The Pocket">The Pocket</option>
+              <option value="Training">Training</option>
+            </select>
+          </div>
+
+          <button id="submit" type="button">submit</button>
+        </div>
+      </div>
+
+      <div id="snackbar">Submitted!</div>
+      <div id="failbar">Failed!</div>
+
+
+      <p class="title">reminders</p>
+
+      <div class="reminderSection">
+
+        <div>
+          <p class="reminder">Remember to sign in/out</p>
+          <p class="subtext">with <b>exact times</b> of arrival/departure</p>
+        </div>
+
+        <div>
+          <p class="reminder">Did you reload automation?</p>
+          <p class="subtext">Check <b>page 10</b> of manual</p>
+        </div>
+        <div>
+          <p class="reminder">Do NOT save templates</p>
+        </div>
+        <div>
+          <p class="reminder">Absolutely NO profanities on air</p>
+          <p class="subtext">in music or spoken by DJs/guests</p>
+        </div>
+        <div>
+          <p class="reminder">No calls to action</p>
+          <p class="subtext">such as "go to/check out this event" <br> Or saying anything is "free"</p>
+        </div>
+        <div>
+          <p class="reminder">Call (305)284-6666</p>
+          <p class="subtext">If you want an escort to your car, dorm, etc. <br> Don't hesitate if you feel unsafe</p>
+        </div>
+        <div>
+          <p class="reminder"></p>
+          <p class="subtext"></p>
+        </div>
+        <div>
+          <p class="reminder">Check the underwriting clipboard</p>
+          <p class="subtext"></p>
+        </div>
+        <div>
+          <p class="reminder"></p>
+          <p class="subtext"></p>
+        </div>
+
+      </div>
+
+      <p class="title">consider announcing</p>
+
+      <div class="reminderSection">
+        <div>
+          <a href="https://www.wvum.org/web-player" target="blank" class="reminder">wvum.org/listenlive</a>
+          <p class="subtext">to listen online from anywhere in the world</p>
+        </div>
+        <div>
+          <a href="https://www.wvum.org/donate" target="blank" class="reminder">wvum.org/donate</a>
+          <p class="subtext">to donate</p>
+        </div>
+        <div>
+          <p class="reminder">Check out "WVUM"</p>
+          <p class="subtext">on the App Store / <a href="https://play.google.com/store/apps/details?id=com.WVUM.android.wvum" target="blank">Play Store</a></p>
+        </div>
+        <div>
+          <a href="https://twitter.com/wvum905" target="blank" class="reminder">twitter.com/wvum905</a>
+          <p class="subtext">our official Twitter page</p>
+        </div>
+        <div>
+          <a href="https://twitter.com/WVUM_Playlist" target="blank" class="reminder">twitter.com/wvum_playlist</a>
+          <p class="subtext">to see our recently played songs</p>
+        </div>
+        <div>
+          <a href="https://www.facebook.com/wvum905/" target="blank" class="reminder">facebook.com/wvum905</a>
+          <p class="subtext">our official Facebook page</p>
+        </div>
+
+      </div>
+ 
+      <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/slim-select/1.18.10/slimselect.min.js"></script>
+      <script type="text/javascript" src="js/script.js"></script>
+      
+
+    </body>
+</html>
