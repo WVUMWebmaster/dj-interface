@@ -53,12 +53,10 @@ $(document).ready(function(){
     };
   });
 
+//warning before closing (almost all browsers have removed support for a custom message)
   window.onbeforeunload = function() {
-    return "Did you save your stuff?"
+    return "DON'T CLOSE THIS PAGE!"
 }
 
-    
-
-  
-
 });
+
